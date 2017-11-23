@@ -66,11 +66,11 @@ Centos7搭建pptp一键安装脚本
 使用：
 
 wget https://raw.githubusercontent.com/DanylZhang/VPS/master/CentOS7-pptp-host1plus.sh
+
 chmod +x ./CentOS7-pptp-host1plus.sh
+
 ./CentOS7-pptp-host1plus.sh -u your_username -p your_password
-1
-2
-3
+
 可在-u、-p后随意更改自己的登录用户名和密码。但密码长度必须大于8个 ASCII字符，否则为了安全，脚本将会随机生成密码。
 
 
